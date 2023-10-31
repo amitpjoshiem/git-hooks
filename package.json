@@ -1,0 +1,27 @@
+{
+  "name": "lint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "i": "^0.3.7",
+    "lint-staged": "^15.0.2",
+    "npm": "^10.2.2",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
